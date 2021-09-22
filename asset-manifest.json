@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.4b6206e1.chunk.css",
+    "main.js": "/memory-game/static/js/main.18a6f322.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.18a6f322.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.aff7712e.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.aff7712e.js.map",
+    "static/js/2.0120f6af.chunk.js": "/memory-game/static/js/2.0120f6af.chunk.js",
+    "static/js/2.0120f6af.chunk.js.map": "/memory-game/static/js/2.0120f6af.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/main.4b6206e1.chunk.css.map": "/memory-game/static/css/main.4b6206e1.chunk.css.map",
+    "static/js/2.0120f6af.chunk.js.LICENSE.txt": "/memory-game/static/js/2.0120f6af.chunk.js.LICENSE.txt",
+    "static/media/911e.62041de2.jpg": "/memory-game/static/media/911e.62041de2.jpg",
+    "static/media/blackcar.a0c69b7b.jpg": "/memory-game/static/media/blackcar.a0c69b7b.jpg",
+    "static/media/bluer8.bb24955d.jpg": "/memory-game/static/media/bluer8.bb24955d.jpg",
+    "static/media/camaro.ccf73710.jpg": "/memory-game/static/media/camaro.ccf73710.jpg",
+    "static/media/carrerra.8e523392.jpg": "/memory-game/static/media/carrerra.8e523392.jpg",
+    "static/media/charcoalR8.a81e124a.jpg": "/memory-game/static/media/charcoalR8.a81e124a.jpg",
+    "static/media/lamb.c804afb2.jpg": "/memory-game/static/media/lamb.c804afb2.jpg",
+    "static/media/mercedes.ebc5d763.jpg": "/memory-game/static/media/mercedes.ebc5d763.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aff7712e.js",
+    "static/js/2.0120f6af.chunk.js",
+    "static/css/main.4b6206e1.chunk.css",
+    "static/js/main.18a6f322.chunk.js"
+  ]
+}
