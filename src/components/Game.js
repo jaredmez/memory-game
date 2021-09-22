@@ -30,14 +30,27 @@ class Game extends React.Component{
                     clicked: true,
                 }
             }else if(id === car.id && car.clicked === true){
-                console.log('you loose')
+                this.resetCards();
+
             }
             return car
         })
         this.setState({cars: newArr})
-        console.log(this.state.cars);
-        
-        
+    }
+
+    resetCards = () => {
+        let currentScore = this.state.score;
+        let highScore = this.state.highscore;
+        if(currentScore > highScore) {
+            highScore = currentScore;
+        }
+
+        const carReset = this.state.cars.map(elem => elem.clicked = false);
+        this.setState({
+            score: 0,
+            highscore: highScore,
+            cars: carReset
+        })
     }
 
     shuffle = () => {            
@@ -55,7 +68,6 @@ class Game extends React.Component{
     }
 
     render() {
-        console.log(this.state.cars);
         let carsArr = []; 
         this.state.cars.map((car, indx) => {
             carsArr.push(<Card
